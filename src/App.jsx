@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-      <div className="App">
-        <h1>Vite + React</h1>
-      </div>
+      <main>
+        <h1>Secret Word Game</h1>
+      </main>
     </>
   )
 }
