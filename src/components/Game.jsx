@@ -1,9 +1,12 @@
 import "./Game.css"
 
-
-const Game = () => {
+const Game = ({verifyLetter}) => {
     return (
-        <div>Game</div>
+        <section className="game">
+            <h1>Secret Word Game</h1>
+            <p>Guess a letter to find the secret word</p>
+            <button onClick={verifyLetter}>Verify Letter</button>
+        </section>
     )
 }
 

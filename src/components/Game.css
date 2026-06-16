@@ -1,0 +1,9 @@
+.game h1 {
+    font-size: 3.5em;
+    color: rgb(6, 161, 245);
+}
+
+.game p {
+    margin-bottom: 2em;
+    color: #0583f2;
+}
