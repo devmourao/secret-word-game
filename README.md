@@ -1,16 +1,57 @@
-# React + Vite
+# Secret Word Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A word guessing game built with React to practice modern frontend development concepts and professional software development workflow.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Secret Word is a browser-based word guessing game where the player tries to discover a hidden word by entering letters.
 
-## React Compiler
+The project was developed as part of a React learning journey, focusing not only on implementation but also on applying professional development practices using Git and GitHub.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Objective
 
-## Expanding the ESLint configuration
+The main objectives of this project are:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Practice React component-based architecture;
+- Understand state management with React Hooks;
+- Work with user interactions and application flow;
+- Apply professional Git workflow;
+- Build a structured portfolio project.
+
+## Features
+
+- Start screen;
+- Random word selection;
+- Word categories;
+- Letter input handling;
+- Correct and incorrect guesses tracking;
+- Win and lose conditions;
+- Game restart flow.
+
+## Technologies
+
+The project was developed using:
+
+- React
+- JavaScript
+- Vite
+- CSS
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── StartScreen.jsx
+│   ├── Game.jsx
+│   └── GameOver.jsx
+│
+├── data/
+│   └── words.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
