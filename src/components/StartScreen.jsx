@@ -1,6 +1,6 @@
 import './StartScreen.css'
 
-function StartScreen() {
+function StartScreen({startGame}) {
   
 
   return (
@@ -11,7 +11,7 @@ function StartScreen() {
         Guess the secret word and test your knowledge!
       </p>
 
-      <button>
+      <button onClick={startGame}>
         Start Game
       </button>
     </section>
