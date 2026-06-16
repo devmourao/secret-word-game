@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import StartScreen from "./components/StartScreen"
+
 import './App.css'
 
 function App() {
@@ -7,9 +9,13 @@ function App() {
 
   return (
     <>
-      <main>
-        <h1>Secret Word Game</h1>
+      <main className='App'>
+  
+         <StartScreen />
+
       </main>
+
+     
     </>
   )
 }
